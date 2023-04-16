@@ -165,6 +165,7 @@ public class AdditionFormActivity extends AppCompatActivity {
                             questions.add(q);
                         }
                     }
+
                     boolean result = db.insertExam(new Exam(examName, numberOfQuestions, minPassAvg, allowedQuestionsType, questionsIndices, totalMark, questions));
                     Log.d("TestingExam", "onClick: " + result);
                     finish();
