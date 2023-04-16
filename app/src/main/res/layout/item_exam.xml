@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+        android:id="@+id/examNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Exam Name"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/examIdTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/numOfQuestionsTv"
+        app:layout_constraintTop_toBottomOf="@id/examNameTv" />
+
+    <TextView
+        android:id="@+id/numOfQuestionsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Num of questions"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/examIdTv"
+        app:layout_constraintEnd_toStartOf="@id/minAvgTv"
+        app:layout_constraintTop_toBottomOf="@id/examNameTv" />
+
+    <TextView
+        android:id="@+id/minAvgTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Min Avg pass"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/numOfQuestionsTv"
+        app:layout_constraintEnd_toStartOf="@id/totalMarksTv"
+        app:layout_constraintTop_toBottomOf="@id/examNameTv" />
+
+    <TextView
+        android:id="@+id/totalMarksTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Total marks"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/minAvgTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/examNameTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

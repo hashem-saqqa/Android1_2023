@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Android1_2023</string>
+    <string name="popular_now_home_tv">Popular now</string>
+
+
+    <string-array name="cities">
+        <item>Gaza</item>
+        <item>Rafah</item>
+        <item>DerBalah</item>
+        <item>Shamal</item>
+        <item>وسطى</item>
+    </string-array>
+    <string-array name="ageRange">
+        <item>12–18</item>
+        <item>18–25</item>
+        <item>25–30</item>
+        <item>30–40</item>
+    </string-array>
+    <string-array name="questionsTypes">
+        <item>Yes-No</item>
+        <item>Multiple Choice</item>
+        <item>Fill the blank</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testing.FinalProject.TeacherMainMenuActivity">
+
+    <Button
+        android:id="@+id/addStudentBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Add Student"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewAllStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="View All Students"
+        app:layout_constraintStart_toEndOf="@id/addStudentBt"
+        app:layout_constraintTop_toTopOf="@id/addStudentBt" />
+
+    <Button
+        android:id="@+id/addQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Add Questions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addStudentBt" />
+
+    <Button
+        android:id="@+id/viewAllQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="View All Questions"
+        app:layout_constraintStart_toEndOf="@id/addStudentBt"
+        app:layout_constraintTop_toBottomOf="@id/viewAllStudents" />
+
+    <Button
+        android:id="@+id/addExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Add Exam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addQuestions" />
+    <Button
+        android:id="@+id/viewAllExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="View All Exams"
+        app:layout_constraintStart_toEndOf="@id/addStudentBt"
+        app:layout_constraintTop_toBottomOf="@id/viewAllQuestions" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
