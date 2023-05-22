@@ -45,6 +45,7 @@ public class CarsViewActivity extends AppCompatActivity {
 
         System.out.println("Hi from hashem");
 
+
         binding.addImageIv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
