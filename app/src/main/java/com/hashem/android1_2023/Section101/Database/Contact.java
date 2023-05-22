@@ -9,7 +9,6 @@ public class Contact {
     private String email;
     private String phone;
     private int yearOfBirth;
-    Bitmap image;
 
     public Contact(String name, String email, String phone, int yearOfBirth) {
         this.name = name;
