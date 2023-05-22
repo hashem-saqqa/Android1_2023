@@ -30,8 +30,7 @@ public class StudentActivity extends AppCompatActivity {
 
                 Intent intent = new Intent();
                 intent.putExtra("name",name);
-                intent.putExtra("id",id);
-                setResult(101,intent);
+                setResult(101,intent.putExtra("id",id));
                 finish();
 
             }

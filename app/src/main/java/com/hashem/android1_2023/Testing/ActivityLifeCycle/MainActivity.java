@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
+        Log.d("LifeCycle", "onRestart: ");
         nameTv.setVisibility(View.VISIBLE);
         nameEt.setText("");
     }
