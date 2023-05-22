@@ -43,7 +43,7 @@ public class CarsViewActivity extends AppCompatActivity {
 
         MyDatabase db = new MyDatabase(this);
 
-        System.out.println("Hi from Ahmed");
+        System.out.println("change 1");
 
 
         binding.addImageIv.setOnClickListener(new View.OnClickListener() {
