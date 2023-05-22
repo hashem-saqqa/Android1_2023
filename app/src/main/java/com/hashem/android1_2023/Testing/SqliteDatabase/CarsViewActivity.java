@@ -43,6 +43,8 @@ public class CarsViewActivity extends AppCompatActivity {
 
         MyDatabase db = new MyDatabase(this);
 
+        System.out.println("Hi from hashem");
+
         binding.addImageIv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
