@@ -22,8 +22,8 @@ public class LoginActivity extends AppCompatActivity {
         MyDataBase db = new MyDataBase(this);
 
 //        MyDataBase db = new MyDataBase(this);
-//        boolean result =  db.insertUser(new User(120180001,2,"s1","123456","Ahmed Ali","1/1/2000","Male"));
-//        boolean result1 = db.insertQuestion(new Question(1,1,"Does Java can build GUI?",2,  null,"yes"));
+        boolean result =  db.insertUser(new User(120180001,2,"s1","123456","Ahmed Ali","1/1/2000","Male"));
+        boolean result1 = db.insertQuestion(new Question(1,1,"Does Java can build GUI?",2,  null,"yes"));
 //        Log.d("TAGgg", "onCreate:0 "+result);
 //        Log.d("TAGgg", "onCreate:1 "+result1);
 

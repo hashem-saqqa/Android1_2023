@@ -3,6 +3,10 @@
     <string name="popular_now_home_tv">Popular now</string>
 
 
+    <string name="SharedPreferenceName">MyFormData</string>
+    <string name="SharedPreferenceName101">MyFormData101</string>
+
+
     <string-array name="cities">
         <item>Gaza</item>
         <item>Rafah</item>
